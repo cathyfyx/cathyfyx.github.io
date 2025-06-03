@@ -954,13 +954,7 @@ img { max-width: 100%; height: auto; display: block; }
         object-fit: cover;    
     }
 
-    .social-links-intro { margin-left: 0;  display: flex; flex-wrap: wrap; row-gap: 8px;  }
-    
-    .social-links-intro a.social-link-twitter-x {
-        flex-basis: 100%; /* Make it take the full width, forcing it to a new line */
-        margin-top: 10px; /* Add some space above it when it wraps */
-        margin-left: 0; /* Align with the start of the line if there was any specific alignment before */
-    }
+    .social-links-intro { margin-left: 0; }
 
     .two-column-layout {
         flex-direction: column; 
