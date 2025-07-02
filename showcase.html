@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuexin Feng - Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">Yuexin Feng</a>
+            <nav class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link" id="nav-projects">Projects</a></li>
+                    <li class="nav-item"><a href="showcase.html" class="nav-link active-page" id="nav-showcase">Showcase</a></li>
+                    <li class="nav-item"><a href="resume.html" class="nav-link" id="nav-resume">Resume</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content-wrapper">
+        <div class="container page-container">
+            <section id="showcase-page" class="content-section">
+                <div class="showcase-wrapper">
+                    <div class="showcase-text-container">
+                        <h2>Welcome to my Showcase👏</h2>
+                        <p>Through a blend of collaborative problem-solving, hands-on technical work and community engagement, my journey has been one of holistic development.</p>
+                        <p>In the ccna lab, I gained hands-on experience by setting up complex computer networks. And as a Computer System and Network (CSN) buddy, I also enjoy helping my peers overcome technical challenges. Beyond these technical roles, I developed my leadership and project management skills by planning and executing an energy-focused school event. My volunteering work at a local orphanage, which taught me the importance of empathy and social responsibility.</p>
+                        <p>These diverse activities have not only improved my technical and organizational skills but have also given me a deep sense of purpose to use my abilities to help our society develop.</p>
+                    </div>
+                    <div class="showcase-image-container">
+                        <div class="slideshow-container">
+                            <div class="slide fade active">
+                                <img src="imgShow/1.jpg" alt="Showcase Image 1">
+                                <div class="slide-caption">
+                                    <p>Our csn buddy.</p>
+                                </div>
+                            </div>
+                            <div class="slide fade">
+                                <img src="imgShow/2.jpg" alt="Showcase Image 2">
+                                <div class="slide-caption">
+                                    <p>In networking lab.</p>
+                                </div>
+                            </div>
+                            <div class="slide fade">
+                                <img src="imgShow/3.jpg" alt="Showcase Image 3">
+                                <div class="slide-caption">
+                                    <p>Presentation for our project.</p>
+                                </div>
+                            </div>
+                            <div class="slide fade">
+                                <img src="imgShow/4.jpg" alt="Showcase Image 4">
+                                <div class="slide-caption">
+                                    <p>Project Management about energy event in school.</p>
+                                </div>
+                            </div>
+                            <div class="slide fade">
+                                <img src="imgShow/5.jpg" alt="Showcase Image 5">
+                                <div class="slide-caption">
+                                    <p>Volunteering in orphan (SULAM).</p>
+                                </div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase-blog-section">
+                    <div class="blog-post-item">
+                        <h4 class="blog-post-title">Project Management in School Event: The Energy Awareness Fun Fair</h4>
+                        <p class="blog-post-description">This event is an interactive educational event designed to enhance energy awareness among secondary school students.</p>
+                    </div>
+
+                    <div class="blog-post-item">
+                        <h4 class="blog-post-title">Community Tech Initiative: CS & AI for Young Minds to Bridging the Digital Divide</h4>
+                        <p class="blog-post-description">This community-led initiative empowers young minds with foundational skills in computer science and artificial intelligence, actively working to close the digital divide by providing access to future-focused education.</p>
+                    </div>
+                </section>
+        </div>
+    </div>
+
+    <footer class="site-footer" id="site-footer">
+        <div class="container">
+             <div class="footer-social-links">
+                 <a href="mailto:cathyfeng879@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/cathyfyx" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/yuexin-f" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
+            </div>
+            <p>&copy; <span id="currentYear"></span> Yuexin Feng. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
