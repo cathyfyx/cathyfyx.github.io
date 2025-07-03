@@ -872,18 +872,6 @@ img { max-width: 100%; height: auto; display: block; }
 .nav-item { margin-left: 1.25rem; }
 /* ... rest of your CSS ... */
 
-/* --- Resume Page Specific --- */
-#resume-page .resume-download-link { display: inline-block; background: #77b8f6; color: #fff; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-size: 1rem; margin: 20px 0; transition: background-color 0.3s ease; }
-#resume-page .resume-download-link:hover { background: #007bff; color: #fff; }
-#resume-page .resume-highlights ul { list-style: disc; padding-left: 20px; margin-top: 15px; }
-#resume-page .resume-highlights ul li { margin-bottom: 8px; font-size: 0.95rem; }
-
-#resume-page h2 {
-    text-align: center;
-    /* You can add other specific styles for the Resume title here if needed,
-       otherwise, it will inherit generic h2 styles. */
-}
-
 /* Footer */
 .site-footer {
     background: #f8f9fa;
